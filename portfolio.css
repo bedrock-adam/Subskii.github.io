@@ -1,6 +1,158 @@
 body {
-    font-family: system-ui;
+    font-family: Roboto;
     color: #2B2B2B;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+hgroup h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+hgroup h2 {
+    font-size: 22px;
+    margin-top: 5px
+}
+
+hgroup h3 {
+    font-size: 16px;
+}
+
+section {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed;
+}
+
+body header {
+    padding: 5px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+/* header a:link { */
+/*     color: #EAEAEA; */
+/* } */
+
+/* header a:visited { */
+/*     color: #EAEAEA; */
+/* } */
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #2B2B2B;
+}
+
+header nav ul {
+   list-style: none;
+   margin-right: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+main {
     margin: auto;
     width: 80%;
+}
+
+main section#about-me {
+    display: flex;
+    justify-content: center;
+}
+
+/* main section#about-me aside { */
+/*     width: 300px; */
+/* } */
+
+/* main section#about-me aside img { */
+/*     width: 300px; */
+/* } */
+
+#about-me aside {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+#about-me aside img {
+    width: 100%;
+    border: 2px solid;
+}
+
+#about-me hgroup {
+    flex: 1;
+    padding: 10px 30px;
+}
+
+#services table {
+    border-spacing: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+table tr th {
+    text-align: center;
+}
+
+table img {
+    width: 100px;
+}
+
+/* main section#services table tr th { */
+/*     text-align: center; */
+/* } */
+
+/* main section#services table tr th img { */
+/*     width: 200px; */
+/* } */
+
+#success-stories article section {
+    display: flex;
+    justify-content: center;
+}
+
+#success-stories article section aside {
+    width: 300px;
+    margin: 20px;
+}
+
+#success-stories article section div {
+    width: 300px;
+    flex: 1;
+    text-align: left;
+}
+
+#success-stories article section aside img {
+    width: 100%;
+}
+
+#experience table {
+    text-align: center;
+    border-spacing: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #2B2B2B;
+    color: #EAEAEA;
+    padding: 5px;
 }
