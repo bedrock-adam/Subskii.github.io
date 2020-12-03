@@ -12,11 +12,10 @@ h3 {
     font-weight: normal;
 }
 
-button {
+.button {
     background-color: white;
     border: solid 1px #2B2B2B;
     border-radius: 5px;
-    color: #2B2B2B;
     padding: 15px 30px;
     margin: 0 10px;
     text-align: center;
@@ -24,11 +23,7 @@ button {
     display: inline-block;
 }
 
-button a {
-    text-decoration: none;
-}
-
-button a:hover {
+.button:hover {
     text-decoration: underline;
 }
 
