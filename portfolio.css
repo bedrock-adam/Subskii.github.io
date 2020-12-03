@@ -31,20 +31,6 @@ a {
     color: #2B2B2B;
 }
 
-/* a:link { */
-/*     color: #2B2B2B; */
-/*     /\* text-decoration: none; *\/ */
-/* } */
-
-/* a:visited { */
-/*     color: #2B2B2B; */
-/*     /\* text-decoration: none; *\/ */
-/* } */
-
-/* a:hover { */
-/*     /\* text-decoration: underline; *\/ */
-/* } */
-
 hgroup h1 {
     font-size: 36px;
     margin-bottom: 5px;
@@ -76,14 +62,6 @@ header a {
     color: #EAEAEA;
 }
 
-/* header a:link { */
-/*     color: #EAEAEA; */
-/* } */
-
-/* header a:visited { */
-/*     color: #EAEAEA; */
-/* } */
-
 header a:hover {
     text-decoration: underline;
 }
@@ -111,14 +89,6 @@ main section#about-me {
     display: flex;
     justify-content: center;
 }
-
-/* main section#about-me aside { */
-/*     width: 300px; */
-/* } */
-
-/* main section#about-me aside img { */
-/*     width: 300px; */
-/* } */
 
 #about-me aside {
     width: 300px;
@@ -151,14 +121,6 @@ table img {
     width: 100px;
 }
 
-/* main section#services table tr th { */
-/*     text-align: center; */
-/* } */
-
-/* main section#services table tr th img { */
-/*     width: 200px; */
-/* } */
-
 #success-stories article section {
     display: flex;
     justify-content: center;
@@ -177,6 +139,10 @@ table img {
 
 #success-stories article section aside img {
     width: 100%;
+}
+
+#success-stories article:last-child section {
+    border-bottom: none;
 }
 
 #experience table {
